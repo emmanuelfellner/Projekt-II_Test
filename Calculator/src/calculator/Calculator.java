@@ -11,7 +11,7 @@ public class Calculator {
             case "+" -> Addition.calculate(a, b);
             case "-" -> Subtraction.calculate(a, b);
             default -> {
-                System.out.println("Ungültiger Operator!");
+                System.out.println("Ungültiger Operator, bitte gültigen aus der Liste oben nutzen!");
                 yield 0;
             }
         };
